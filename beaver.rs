@@ -1,3 +1,4 @@
+// 3 state 2 symbol busy beaver
 fn next(current_state: char, read_symbol: i8) -> (char, i8, i8) {
     let mut next_state: char = 'Y';
     let mut write_symbol: i8 = 2;
