@@ -3,3 +3,5 @@ Busy Beaver game: an attempt to find a program that eventually halts while produ
 beaver32.rs is a 3-state, 2-symbol busy beaver which is known to have an output of 6. Formally, one might write it as $BB(3, 2) = \Sigma(3, 2) = 6$
 
 beaver42.rs: 4-state, 2-symbol: $BB(4, 2) = \Sigma(4, 2) = 13$
+
+state_beaver.rs: utilises a vectors for the change of state function instead of excessively using if/else statements; allows for easy maninpulation and expansion
